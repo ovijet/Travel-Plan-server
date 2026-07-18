@@ -1,10 +1,10 @@
 {
-  "name": "scic-ass-server",
+  "name": "travel-server",
   "version": "1.0.0",
   "main": "index.ts",
   "scripts": {
-    "dev": "tsx watch index.ts",
-    "start": "tsx index.ts"
+    "dev": "node api.js && tsx watch index.ts",
+    "start": "node api.js && tsx index.ts"
   },
   "keywords": [],
   "author": "",
