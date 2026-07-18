@@ -1,10 +1,10 @@
 {
-  "name": "scic-ass-server",
+  "name": "travel-server",
   "version": "1.0.0",
   "main": "index.ts",
   "scripts": {
-    "dev": "tsx watch index.ts",
-    "start": "tsx index.ts"
+    "dev": "node init && tsx watch index.ts",
+    "start": "node init && tsx index.ts"
   },
   "keywords": [],
   "author": "",
@@ -15,7 +15,8 @@
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
-    "mongodb": "^7.5.0"
+    "mongodb": "^7.5.0",
+    "node-fetch": "^3.3.2"
   },
   "devDependencies": {
     "@types/cors": "^2.8.19",
